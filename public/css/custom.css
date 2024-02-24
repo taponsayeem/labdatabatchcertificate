@@ -1,0 +1,12 @@
+h1{
+  font-size: 2.5rem!important;
+}
+
+.element{  
+  font-weight: bold;
+  padding: 2px 0;
+  border-bottom: 1px solid #000;
+}
+.row{
+  padding: 1px 0;
+}

@@ -3,7 +3,7 @@
   <head>   
     <style> 
         body {
-            font-family:"Calibri", sans-serif!important;
+            font-family:"Calibri"!important;
             
         }
         /*img{
@@ -12,29 +12,32 @@
         } */
         label
         {
-            font-family:"Calibri", sans-serif!important;
+            font-family:"Calibri"!important;
             text-align:left;            
             color:#555555;
             font-size:13px;
             margin-left:2px;
         }      
         p{
-            font-family:"Calibri", sans-serif!important;
+            font-family:"Calibri"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         span{
-            font-family:"Calibri", sans-serif!important;
+            font-family:"Calibri"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         div{
-            font-family:"Calibri", sans-serif!important;
+            font-family:"Calibri"!important;
             font-size:120%;
-            margin-bottom:10px;
+            margin-bottom:2px;
             color:#C92148;
+        }
+        .tb2 div{
+
         }
         table{
             /*font-family:"Calibri", sans-serif;*/
@@ -56,7 +59,7 @@
            text-align: center;
         } 
         .tb1 th{
-            padding: 5px 5px;  
+            padding: 2px 2px;  
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
             color:#FFFFFF;
@@ -84,7 +87,7 @@
             font-size:11px;
             color:#262626;
             text-align:center;
-            font-family:"Calibri", sans-serif; 
+            font-family:"Calibri"!important; 
         }
         .tb3 tr td:nth-child(1) {
            text-align:left;
@@ -95,7 +98,7 @@
             color:#FFFFFF;
             border-bottom:1px solid #FFFFFF;
             font-size:12px;
-            font-family:"Calibri", sans-serif;
+            font-family:"Calibri"!important;
             text-align:left;
         }
         .tb4 {            
@@ -118,7 +121,7 @@
         }
         .ftitle{
             color:#ffffff;
-            font-family:"Calibri", sans-serif; 
+            font-family:"Calibri"!important; 
             font-size:14px;
             font-weight:800px;
             position:absolute;
@@ -344,11 +347,11 @@
                         <tbody>
                             <tr>               
                                 <td>CHLORIDE*:</td> 
-                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->chloride}} @endif</td>                            
+                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->chloride}} @endif ppm</td>                            
                             </tr>  
                             <tr>               
                                 <td>CONDUCTIVITY^:</td>
-                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->conductivity}} @endif</td>                            
+                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->conductivity}} @endif ms/m</td>                            
                             </tr>          
                         </tbody> 
                     </table> 

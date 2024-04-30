@@ -47,7 +47,7 @@ class HomeController extends Controller
        
         $exsample = DB::select( "SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate" );  
         if(is_null($exsample)){
-            return back()->with('error', 'Sample not found!');
+            return back()->with('error', 'External Sample not found!'."SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate");
         }    
           
         $exdata = DB::select( "SELECT * from external_data WHERE sampleid='".$exsample[0]->sampleid."'" );

@@ -42,7 +42,7 @@ class HomeController extends Controller
         //
         $sample = Sample::whereBatchno($request->batch_number)->first();
         if(is_null($sample)){
-            return back()->with('error', 'Internal Sample not found!'.$request->batch_number);
+            return back()->with('error', 'Internal Sample not found!');
         }
        
         $exsample = DB::select( "SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate" );  

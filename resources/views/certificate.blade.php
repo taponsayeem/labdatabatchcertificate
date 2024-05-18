@@ -6,7 +6,7 @@
             font-family:"Calibri"!important;
             
         }
-        
+
         label
         {
             font-family:"Calibri"!important;
@@ -348,7 +348,7 @@
                             </tr>  
                             <tr>               
                                 <td>CONDUCTIVITY^:</td>
-                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->conductivity}} @endif ms/m</td>                            
+                                <td style="text-align:left;">@if($prdata) {{$prdata[0]->conductivity}} @endif µS/cm</td>                            
                             </tr>          
                         </tbody> 
                     </table> 

@@ -9,7 +9,7 @@
         /*img{
             width:100%; 
             /*margin-bottom:50px;
-        } */
+        }*/
         label
         {
             font-family:"Calibri"!important;

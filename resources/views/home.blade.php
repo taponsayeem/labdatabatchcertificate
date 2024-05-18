@@ -22,7 +22,7 @@
                     <!--Welcome {{ auth()->user()->name._(' |')}} {{ __('You are logged in!') }}-->
                     <form method="post" action="{{ route('certificate') }}">
                         @csrf 
-                        <ul style="color:green; font-size:11px;"> Instructions:
+                        <ul style="font-weight:bold;"> Instructions:
                             <li>Please enter batch number using understorce. Example 22_12_1D_24_24B</li>
                             <li>Use one digit for the first 9 weeks. Example 8 instead of 08</li>
                             

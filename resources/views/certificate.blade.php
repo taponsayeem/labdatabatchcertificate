@@ -354,7 +354,7 @@
                     </table> 
                     <table  class="tb4">
                         <tr><td><p>* Based on using ISO Standard 11127-7 test method, with a chloride content less than 25 ppm.</p></td></tr>
-                        <tr><td><span>^ Based on using ISO Standard 11127-6 test method, with a conductivity of less than 25 mS/m.</span></td></tr>
+                        <tr><td><span>^ Based on using ISO Standard 11127-6 test method, with a conductivity of less than 25 µS/cm.</span></td></tr>
                         <tr><td><img src="{{ public_path('/images/Signature.JPG') }}" style="width:55%;margin:0;margin-top:10px"/></td></tr>
                         <tr><td><label class="name">Marcius Brown</label></td></tr> 
                         <tr><td><label class="designation">Registered Manager</label></td></tr>  

@@ -42,17 +42,17 @@ class HomeController extends Controller
         //
         $sample = Sample::whereBatchno($request->batch_number)->first();
         if(is_null($sample)){
-            return back()->with('error', 'Internal Sample not found!');
+            return back()->with('error', 'Batch number not found, please contact with the sales department.');
         }
        
         $exsample = DB::select( "SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate" );  
         if(is_null($exsample)){
-            return back()->with('error', 'External Sample not found!'."SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate");
+            return back()->with('error', 'Batch number not found, please contact with the sales department.');
         }    
           
         $exdata = DB::select( "SELECT * from external_data WHERE sampleid='".$exsample[0]->sampleid."'" );
         if(is_null($exdata)){
-            return back()->with('error', 'External data not found!');
+            return back()->with('error', 'Batch number not found, please contact with the sales department.');
         }    
 
         $prdata = DB::select( "SELECT * from primary_properties WHERE sampleid='".$sample->sampleid."'" );

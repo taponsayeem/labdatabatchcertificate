@@ -6,7 +6,21 @@
             font-family:"Arial"!important;
             
         }
-
+        .htitle{
+            color:#ffffff;
+            font-family:"Times New Roman"!important;
+            font-size:15px;
+            font-weight:800px;
+            position:absolute;
+            top:75px;
+            left:160px;
+        }
+        div{
+            font-family:"Arial"!important;
+            font-size:15px;
+            margin-bottom:2px;
+            color:#C92148;
+        }
         label
         {
             font-family:"Arial"!important;
@@ -27,12 +41,6 @@
             color: #555555;
             width:100%; 
         }
-        div{
-            font-family:"Arial"!important;
-            font-size:120%;
-            margin-bottom:2px;
-            color:#C92148;
-        }
         .tb2 div{
 
         }
@@ -51,16 +59,16 @@
            border-right:1px solid #FFFFFF;
            background-color: #DEEAF6;
            padding: 5px 5px;
-           font-size:11px;
+           font-size:8,2px;
            color:#262626;
            text-align: center;
         } 
         .tb1 th{
-            padding: 2px 2px;  
+            padding: 5px 5px;  
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
             color:#FFFFFF;
-            font-size:12px;
+            font-size:9px;
         }
         .tb2 {            
            width:100%;           
@@ -106,15 +114,6 @@
         }
         .name{            
             font-weight:bold;
-        }
-        .htitle{
-            color:#ffffff;
-            font-family:"Times New Roman"!important;
-            font-size:20px;
-            font-weight:800px;
-            position:absolute;
-            top:75px;
-            left:160px;
         }
         .ftitle{
             color:#ffffff;

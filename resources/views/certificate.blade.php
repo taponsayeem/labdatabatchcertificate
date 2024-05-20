@@ -15,10 +15,20 @@
             top:75px;
             left:160px;
         }
-        div{
+        .ftitle{
+            color:#ffffff;
+            font-family:"Arial"!important; 
+            font-size:14px;
+            font-weight:800px;
+            position:absolute;
+            bottom:25px;
+            right:50px;
+            text-align:right;
+        }
+        ttitle{
             font-family:"Arial"!important;
             font-size:15px;
-            margin-bottom:2px;
+            margin-bottom:10px;
             color:#C92148;
         }
         label
@@ -40,9 +50,6 @@
             font-size: 11px;
             color: #555555;
             width:100%; 
-        }
-        .tb2 div{
-
         }
         table{
             /*font-family:"Arial", sans-serif;*/
@@ -115,16 +122,6 @@
         .name{            
             font-weight:bold;
         }
-        .ftitle{
-            color:#ffffff;
-            font-family:"Arial"!important; 
-            font-size:14px;
-            font-weight:800px;
-            position:absolute;
-            bottom:25px;
-            right:50px;
-            text-align:right;
-        }
         /** 
             Set the margins of the page to 0, so the footer and the header
             can be of the full height and width !
@@ -170,7 +167,7 @@
         <img src="{{ public_path('/images/Picture3.jpg') }}"/>
     </footer>
     <main>
-        <div><b>Product Details</b></div>
+        <div class='ttitle'><b>Product Details</b></div>
         <table class="tb1">
         <thead>
                 <tr>

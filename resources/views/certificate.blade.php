@@ -3,32 +3,32 @@
   <head>   
     <style> 
         body {
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             
         }
 
         label
         {
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             text-align:left;            
             color:#555555;
             font-size:13px;
             margin-left:2px;
         }      
         p{
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         span{
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         div{
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             font-size:120%;
             margin-bottom:2px;
             color:#C92148;
@@ -37,7 +37,7 @@
 
         }
         table{
-            /*font-family:"Calibri", sans-serif;*/
+            /*font-family:"Arial", sans-serif;*/
             border-spacing: 0;
             border-collapse: collapse;
         }
@@ -84,7 +84,7 @@
             font-size:11px;
             color:#262626;
             text-align:center;
-            font-family:"Calibri"!important; 
+            font-family:"Arial"!important; 
         }
         .tb3 tr td:nth-child(1) {
            text-align:left;
@@ -95,7 +95,7 @@
             color:#FFFFFF;
             border-bottom:1px solid #FFFFFF;
             font-size:12px;
-            font-family:"Calibri"!important;
+            font-family:"Arial"!important;
             text-align:left;
         }
         .tb4 {            
@@ -109,7 +109,7 @@
         }
         .htitle{
             color:#ffffff;
-            font-family:"Kanit"!important;
+            font-family:"Times New Roman"!important;
             font-size:20px;
             font-weight:800px;
             position:absolute;
@@ -118,7 +118,7 @@
         }
         .ftitle{
             color:#ffffff;
-            font-family:"Calibri"!important; 
+            font-family:"Arial"!important; 
             font-size:14px;
             font-weight:800px;
             position:absolute;

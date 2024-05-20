@@ -23,8 +23,8 @@
                     <form method="post" action="{{ route('certificate') }}">
                         @csrf 
                         <ul style="font-weight:bold;"> Instructions:
-                            <li>Please enter batch number using understorce. Example 22_12_1D_24_24B</li>
-                            <li>Use one digit for the first 9 weeks. Example 8 instead of 08</li>
+                            <li>Please enter batch number using understorce. Example: 24-08-2D-12-36B will be like 24_8_2D_12_36B</li>
+                            <li>Use one digit for the first 9 weeks. Example: 24-08-2D-12-36B will be like 24_8_2D_12_36B</li>
                             
                         </ul>
                         <div class="row py-1"> 

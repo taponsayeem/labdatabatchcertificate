@@ -25,7 +25,7 @@
             right:50px;
             text-align:right;
         }
-        ttitle{
+        .ttitle{
             font-family:"Arial"!important;
             font-size:15px;
             margin-bottom:10px;
@@ -63,14 +63,16 @@
 
         } 
         .tb1 td { 
+           font-family:"Arial"!important;
            border-right:1px solid #FFFFFF;
            background-color: #DEEAF6;
            padding: 5px 5px;
-           font-size:8,2px;
+           font-size:8.2px;
            color:#262626;
            text-align: center;
         } 
         .tb1 th{
+            font-family:"Arial"!important;
             padding: 5px 5px;  
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
@@ -167,7 +169,7 @@
         <img src="{{ public_path('/images/Picture3.jpg') }}"/>
     </footer>
     <main>
-        <div class='ttitle'><b>Product Details</b></div>
+        <div class='ttitle'>Product Details</div>
         <table class="tb1">
         <thead>
                 <tr>
@@ -193,7 +195,7 @@
         <table class="tb2">
             <tr>
                 <td>
-                    <div><b>Typical Chemical Analysis</b></div>
+                    <div class='ttitle'>Typical Chemical Analysis</div>
                     <table class="tb3">
                         <thead>
                             <tr>
@@ -242,7 +244,7 @@
                         </tbody> 
                     </table> 
                     <p>* Silica that is bound within the lattice of the garnet crystal and not free crystalline silica.</p>
-                    <div><b>Typical Physical Characteristics</b></div>
+                    <div class='ttitle'>Typical Physical Characteristics</div>
                     <table class="tb3">
                         <thead>
                             <tr>
@@ -291,7 +293,7 @@
                     </table> 
                 </td> 
                 <td class="ral">
-                    <div><b>Typical Mineral Composition</b></div>
+                    <div class='ttitle'>Typical Mineral Composition</div>
                     <table class="tb3">
                         <thead>
                             <tr>
@@ -329,7 +331,7 @@
                         </tbody> 
                     </table>
                     <p></p>
-                    <div><b>Typical Chloride & Conductivity</b></div>
+                    <div class='ttitle'>Typical Chloride & Conductivity</div>
                     <table class="tb3">
                         <thead>
                             <tr>

@@ -59,7 +59,7 @@
         .tb1 {            
            width:100%;           
            margin-bottom:40px;           
-           /*margin-left:5%;*/
+           margin-left:20px;
 
         } 
         .tb1 td { 

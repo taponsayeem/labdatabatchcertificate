@@ -29,7 +29,7 @@
         .ttitle{
             font-family:"Arial, Helvetica, sans-serif"!important;
             font-size:15px;
-            margin-bottom:20px;
+            margin-bottom:40px;
             color:#C92148;
         }
         label

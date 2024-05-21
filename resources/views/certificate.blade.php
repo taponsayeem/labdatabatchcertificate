@@ -3,7 +3,7 @@
   <head>   
     <style> 
         body {
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif";
             
         }
         .htitle{
@@ -17,7 +17,7 @@
         }
         .ftitle{
             color:#ffffff;
-            font-family:"Arial"!important; 
+            font-family:"Arial, Helvetica, sans-serif"!important; 
             font-size:14px;
             font-weight:800px;
             position:absolute;
@@ -26,33 +26,33 @@
             text-align:right;
         }
         .ttitle{
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             font-size:15px;
             margin-bottom:10px;
             color:#C92148;
         }
         label
         {
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             text-align:left;            
             color:#555555;
             font-size:13px;
             margin-left:2px;
         }      
         p{
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         span{
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         table{
-            /*font-family:"Arial", sans-serif;*/
+            /*font-family:"Arial, Helvetica, sans-serif", sans-serif;*/
             border-spacing: 0;
             border-collapse: collapse;
         }
@@ -63,7 +63,7 @@
 
         } 
         .tb1 td { 
-           font-family:"Arial"!important;
+           font-family:"Arial, Helvetica, sans-serif"!important;
            border-right:1px solid #FFFFFF;
            background-color: #DEEAF6;
            padding: 5px 5px;
@@ -72,7 +72,7 @@
            text-align: center;
         } 
         .tb1 th{
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             padding: 5px 5px;  
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
@@ -101,7 +101,7 @@
             font-size:11px;
             color:#262626;
             text-align:center;
-            font-family:"Arial"!important; 
+            font-family:"Arial, Helvetica, sans-serif"!important; 
         }
         .tb3 tr td:nth-child(1) {
            text-align:left;
@@ -112,7 +112,7 @@
             color:#FFFFFF;
             border-bottom:1px solid #FFFFFF;
             font-size:12px;
-            font-family:"Arial"!important;
+            font-family:"Arial, Helvetica, sans-serif"!important;
             text-align:left;
         }
         .tb4 {            

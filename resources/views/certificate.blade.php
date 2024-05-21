@@ -28,7 +28,7 @@
         .ttitle{
             font-family:"Arial, Helvetica, sans-serif"!important;
             font-size:15px;
-            margin-bottom:10px;
+            margin-bottom:20px;
             color:#C92148;
         }
         label
@@ -59,7 +59,7 @@
         .tb1 {            
            width:100%;           
            margin-bottom:40px;           
-           margin-left:20px;
+           margin-top:20px;
 
         } 
         .tb1 td { 

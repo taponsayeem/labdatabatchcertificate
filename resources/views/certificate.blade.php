@@ -19,7 +19,7 @@
         .ftitle{
             color:#ffffff;
             font-family:"Arial, Helvetica, sans-serif"!important; 
-            font-size:14px;
+            font-size:10.5pt;
             font-weight:800px;
             position:absolute;
             bottom:25px;

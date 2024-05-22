@@ -10,7 +10,7 @@
         .htitle{
             color:#ffffff;
             font-family:"Times New Roman"!important;
-            font-size:15px;
+            font-size:15pt;
             font-weight:800px;
             position:absolute;
             top:75px;
@@ -27,9 +27,10 @@
             text-align:right;
         }
         .ttitle{
-            font-family:"Arial, Helvetica, sans-serif"!important;
-            font-size:15px;
-            margin-bottom:40px;
+            font-family:"Arial, Helvetica, sans-serif"!important;            
+            font-weight:bold;
+            font-size: 14.4pt;
+            margin-bottom:7pt;
             color:#C92148;
         }
         label
@@ -59,16 +60,14 @@
         }
         .tb1 {            
            width:100%;           
-           margin-bottom:40px;           
-           margin-top:20px;
-
+           margin-bottom:40px;
         } 
         .tb1 td { 
            font-family:"Arial, Helvetica, sans-serif"!important;
            border-right:1px solid #FFFFFF;
            background-color: #DEEAF6;
            padding: 5px 5px;
-           font-size:8.2px;
+           font-size:8.2pt;
            color:#262626;
            text-align: center;
         } 
@@ -78,7 +77,7 @@
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
             color:#FFFFFF;
-            font-size:9px;
+            font-size:9pt;
         }
         .tb2 {            
            width:100%;           
@@ -99,7 +98,7 @@
             padding: 5px 5px;
             border-bottom:1px solid #FFFFFF;
             background-color: #DEEAF6;
-            font-size:11px;
+            font-size:8.2pt;
             color:#262626;
             text-align:center;
             font-family:"Arial, Helvetica, sans-serif"!important; 
@@ -112,7 +111,7 @@
             background-color: #C20430;
             color:#FFFFFF;
             border-bottom:1px solid #FFFFFF;
-            font-size:12px;
+            font-size:9pt;
             font-family:"Arial, Helvetica, sans-serif"!important;
             text-align:left;
         }

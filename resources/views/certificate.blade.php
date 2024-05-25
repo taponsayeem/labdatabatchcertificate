@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
     <style> 
         body {
-            font-family:"Arial, Helvetica, sans-serif";
+            font-family:"Arial, Helvetica, sans-serif, DejaVu Sans";
             
         }
         .htitle{
@@ -306,7 +306,7 @@
                             <tr>               
                                 <td>Garnet (Almandine)</td>
                                 <td>Fe3Al2(SiO4)3</td>   
-                                <td>@if($exdata) {{$exdata[0]->garnet}} @endif</td>                            
+                                <td style="font-family: DejaVu Sans;">@if($exdata) {{$exdata[0]->garnet}} @endif</td>                            
                             </tr>  
                             <tr>               
                                 <td>Ilmenite</td>

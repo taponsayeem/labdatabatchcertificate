@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
     <style> 
         body {
-            font-family:"Arial, Helvetica, sans-serif, DejaVu Sans";
+            font-family:"Arial, Helvetica, sans-serif";
             
         }
         .htitle{

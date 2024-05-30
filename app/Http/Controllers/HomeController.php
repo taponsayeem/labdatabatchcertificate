@@ -111,7 +111,7 @@ class HomeController extends Controller
             $pdf->render();
 
             $dompdf = $pdf->getDomPDF();
-            $font = $dompdf->getFontMetrics()->get_font("Calibri", "sans-serif");
+            //$font = $dompdf->getFontMetrics()->get_font("Calibri", "sans-serif",);
             //$dompdf->get_canvas()->page_text(34, 18, "{PAGE_NUM} / {PAGE_COUNT}", $font, 10, array(0, 0, 0));
             
             return $pdf->stream("BatchCertificate-".$request->batchno.".pdf");

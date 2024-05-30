@@ -17,7 +17,7 @@
         }
         .ftitle{
             color:#ffffff;
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             font-size:10.5pt;
             font-weight:800px;
             position:absolute;
@@ -26,7 +26,7 @@
             text-align:right;
         }
         .ttitle{
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */       
+                 
             font-weight:bold;
             font-size: 14.4pt;
             margin-bottom:7pt;
@@ -34,26 +34,26 @@
         }
         label
         {
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             text-align:left;            
             color:#555555;
             font-size:13px;
             margin-left:2px;
         }      
         p{
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         span{
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             font-size: 11px;
             color: #555555;
             width:100%; 
         }
         table{
-            /*font-family:"Arial, Helvetica, sans-serif", sans-serif;*/
+            
             border-spacing: 0;
             border-collapse: collapse;
         }
@@ -62,7 +62,7 @@
            margin-bottom:40px;
         } 
         .tb1 td { 
-           /*font-family:"Arial, Helvetica, sans-serif"!important; */
+           
            border-right:1px solid #FFFFFF;
            background-color: #DEEAF6;
            padding: 5px 5px;
@@ -71,7 +71,7 @@
            text-align: center;
         } 
         .tb1 th{
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             padding: 5px 5px;  
             border-right:1px solid #FFFFFF;           
             background-color: #C20430;
@@ -80,7 +80,7 @@
         }
         .tb2 {            
            width:100%;           
-           /*margin-left:5%;*/            
+              
         }     
         .tb2 td{
             width:50%;    
@@ -100,7 +100,7 @@
             font-size:8.2pt;
             color:#262626;
             text-align:center;
-            /*font-family:"Arial, Helvetica, DejaVu Sans, sans-serif"!important;*/
+            
         }
         .tb3 tr td:nth-child(1) {
            text-align:left;
@@ -114,7 +114,7 @@
             color:#FFFFFF;
             border-bottom:1px solid #FFFFFF;
             font-size:9pt;
-            /*font-family:"Arial, Helvetica, sans-serif"!important; */
+            
             text-align:left;
         }
         .tb4 {            

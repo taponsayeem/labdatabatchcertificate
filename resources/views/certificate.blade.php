@@ -8,12 +8,11 @@
         }
         .htitle{
             color:#ffffff;
-            font-family:"Times New Roman"!important;
             font-size:15pt;
             font-weight:800px;
             position:absolute;
             top:75px;
-            left:160px;
+            left:50px;
         }
         .ftitle{
             color:#ffffff;

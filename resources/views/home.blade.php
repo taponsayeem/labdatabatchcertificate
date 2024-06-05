@@ -22,11 +22,15 @@
                     <!--Welcome {{ auth()->user()->name._(' |')}} {{ __('You are logged in!') }}-->
                     <form method="post" action="{{ route('certificate') }}">
                         @csrf 
-                        <ul style="font-weight:bold;"> Instructions:
-                            <li>Please enter batch number using understorce. Example: 24-08-2D-12-36B will be like 24_8_2D_12_36B</li>
-                            <li>Use one digit for the first 9 weeks. Example: 24-08-2D-12-36B will be like 24_8_2D_12_36B</li>
-                            
-                        </ul>
+                        
+                        <div style="font-weight:bold;width:90%;margin-left:40px;">Instructions:
+                            <ul style="left:70px;font-weight:500;">
+                                <li>When entering batch numbers, please use underscore instead of dashes. For <u>example</u> 24-16-2D-12-36B needs to be entered as 24_16_2D_12_36B</li>
+                                <li>When entering batch numbers that have a zero in the second set of characters, please do not enter the 0. For <u>example</u> 24-08-2D-12-36B, please enter it as 24_8_2D_12_36B</li>
+                                <li>For any enquiries please contact the Australian Garnet sales department at <a href="mailto:sales@australiangarnet.com.au">sales@australiangarnet.com.au</a></li>
+                                
+                            </ul>
+                        </div>
                         <div class="row py-1"> 
                             <div class="col-sm-2 text-center">
                                 <label for="batch_number"><b>Batch Number</b></label> 

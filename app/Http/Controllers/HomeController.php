@@ -47,7 +47,7 @@ class HomeController extends Controller
         
         $exsample = DB::select( "SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate" );  
         if(empty($exsample)){
-            return back()->with('error', 'Batch number not found, please check batch format is entered correctly as detailed in the instructions below, otherwise please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
+            return back()->with('error', 'External sample not found, please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
         }    
 
         

@@ -54,7 +54,7 @@ class HomeController extends Controller
           
         $exdata = DB::select( "SELECT * from external_data WHERE sampleid='".$exsample[0]->sampleid."'" );
         if(empty($exdata)){
-            return back()->with('error', 'Batch number not found, please check batch format is entered correctly as detailed in the instructions below, otherwise please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
+            return back()->with('error', 'External data not found, please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
         }    
 
         $prdata = DB::select( "SELECT * from primary_properties WHERE sampleid='".$sample->sampleid."'" );

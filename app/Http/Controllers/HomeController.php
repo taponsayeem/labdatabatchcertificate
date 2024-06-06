@@ -41,17 +41,19 @@ class HomeController extends Controller
     {
         //
         $sample = Sample::whereBatchno($request->batch_number)->first();
-        if(is_null($sample)){
+        if(empty($sample)){
             return back()->with('error', 'Batch number not found, please check batch format is entered correctly as detailed in the instructions below, otherwise please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
         }
-       
+        
         $exsample = DB::select( "SELECT [sampleid] from samples WHERE name='".$sample->name."' and category='External Samples' and '".$sample->date."'>=exsdate and '".$sample->date."'<=exedate" );  
-        if(is_null($exsample)){
+        if(empty($exsample)){
             return back()->with('error', 'Batch number not found, please check batch format is entered correctly as detailed in the instructions below, otherwise please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
         }    
+
+        
           
         $exdata = DB::select( "SELECT * from external_data WHERE sampleid='".$exsample[0]->sampleid."'" );
-        if(is_null($exdata)){
+        if(empty($exdata)){
             return back()->with('error', 'Batch number not found, please check batch format is entered correctly as detailed in the instructions below, otherwise please contact the Australian Garnet Sales team at sales@australiangarnet.com.au');
         }    
 

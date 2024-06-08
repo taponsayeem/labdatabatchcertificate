@@ -9,14 +9,13 @@
         .htitle{
             color:#ffffff;
             font-size:15pt;
-            font-weight:800px;
+            font-weight:bold;
             position:absolute;
             top:75px;
             left:70px;
         }
         .ftitle{
-            color:#ffffff;
-            
+            color:#ffffff;            
             font-size:10.5pt;
             font-weight:800px;
             position:absolute;

@@ -12,7 +12,7 @@
             font-weight:800px;
             position:absolute;
             top:75px;
-            left:50px;
+            left:70px;
         }
         .ftitle{
             color:#ffffff;

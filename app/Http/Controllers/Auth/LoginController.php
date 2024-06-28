@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Illuminate\Http\Request;
+use Auth;
 
 class LoginController extends Controller
 {
@@ -36,5 +38,35 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function login(Request $request)
+    {
+        //dd($request->captcha);
+        $request->validate([
+            'email' => 'required|email',
+            'password' => 'required',
+            'captcha' => 'required|captcha',
+        ]);
+
+
+        $credentials = $request->only('email', 'password');
+
+        // Add your Elasticsearch authentication logic here
+        /*if (! $this->elasticsearch->authenticate($credentials)) {
+            return redirect()->back()->withErrors([
+                'email' => 'The provided credentials do not match our records.',
+            ]);
+        }*/
+
+        if (Auth::attempt($credentials, $request->remember)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended(RouteServiceProvider::HOME);
+        }
+
+        return redirect()->back()->withErrors([
+            'email' => 'The provided credentials do not match our records.',
+        ]);
     }
 }

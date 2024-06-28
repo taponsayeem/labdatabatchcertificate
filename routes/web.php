@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CertificateController;
+use App\Http\Controllers\CaptchaServiceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,8 @@ use App\Http\Controllers\CertificateController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/reload-captcha', [CaptchaServiceController::class, 'reloadCaptcha']);
 
 Auth::routes();
 

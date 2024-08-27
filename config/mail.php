@@ -54,6 +54,7 @@ return [
             'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
             'username' => 'noreply@australiangarnet.com.au',
             'password' => 'F&013683868332ul@',
+            'MAIL_FROM_ADDRESS'=>'noreply@australiangarnet.com.au',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],

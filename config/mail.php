@@ -54,8 +54,6 @@ return [
             'encryption' => env('MAIL_ENCRYPTION', 'TLS'),
             'username' => 'noreply@wedobot.au',
             'password' => '_lZCidCJ5NZ[',
-            'MAIL_FROM_ADDRESS'=>'noreply@wedobot.au',
-            'MAIL_FROM_NAME'=>"${APP_NAME}",
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
@@ -113,8 +111,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@wedobot.au'),
+        'name' => env('MAIL_FROM_NAME', '${APP_NAME}'),
     ],
 
     /*

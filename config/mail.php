@@ -55,6 +55,7 @@ return [
             'username' => 'noreply@australiangarnet.com.au',
             'password' => 'F&013683868332ul@',
             'MAIL_FROM_ADDRESS'=>'noreply@australiangarnet.com.au',
+            'MAIL_FROM_NAME'=>"${APP_NAME}",
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],

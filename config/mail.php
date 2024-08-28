@@ -50,7 +50,7 @@ return [
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', 'smtp.office365.com'),
-            'port' => env('MAIL_PORT', 465),
+            'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
             'username' => 'noreply@australiangarnet.com.au',
             'password' => 'F&013683868332ul@',

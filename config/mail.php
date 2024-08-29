@@ -50,7 +50,7 @@ return [
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', 'smtp.office365.com'),
-            'port' => env('MAIL_PORT', 587),
+            'port' => env('MAIL_PORT', 25),
             'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
             'username' => 'noreply@Centralsystems.com.au',
             'password' => 'D*940082309114us',

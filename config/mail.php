@@ -49,11 +49,11 @@ return [
         'smtp' => [
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
-            'host' => env('MAIL_HOST', 'smtp.office365.com'),
+            'host' => env('MAIL_HOST', 'mail.smtp2go.com'),
             'port' => env('MAIL_PORT', 25),
-            'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
-            'username' => 'noreply@Centralsystems.com.au',
-            'password' => 'D*940082309114us',
+            'encryption' => env('MAIL_ENCRYPTION', 'TLS'),
+            'username' => 'scans@centralsystems.com.au',
+            'password' => 'bMdMJqAMYDVh9Lmn',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
@@ -111,7 +111,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'noreply@Centralsystems.com.au'),
+        'address' => env('MAIL_FROM_ADDRESS', 'scans@centralsystems.com.au'),
         'name' => env('MAIL_FROM_NAME', 'Batch Certificate Generator'),
     ],
 

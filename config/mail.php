@@ -49,11 +49,11 @@ return [
         'smtp' => [
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
-            'host' => env('MAIL_HOST', 'mail.wedobot.au'),
-            'port' => env('MAIL_PORT', 465),
-            'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => 'noreply@wedobot.au',
-            'password' => '_lZCidCJ5NZ[',
+            'host' => env('MAIL_HOST', 'smtp.office365.com'),
+            'port' => env('MAIL_PORT', 587),
+            'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
+            'username' => 'noreply@Centralsystems.com.au',
+            'password' => 'D*940082309114us',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
@@ -111,7 +111,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'noreply@wedobot.au'),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@Centralsystems.com.au'),
         'name' => env('MAIL_FROM_NAME', 'Batch Certificate Generator'),
     ],
 

@@ -53,7 +53,7 @@ return [
             'port' => env('MAIL_PORT', 587),
             'encryption' => env('MAIL_ENCRYPTION', 'STARTTLS'),
             'username' => 'noreply@Centralsystems.com.au',
-            'password' => 'V/197139793377ah',
+            'password' => 'D*940082309114us',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],

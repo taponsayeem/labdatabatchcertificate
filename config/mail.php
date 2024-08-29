@@ -49,11 +49,11 @@ return [
         'smtp' => [
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
-            'host' => env('MAIL_HOST', 'mail.smtp2go.com'),
-            'port' => env('MAIL_PORT', 25),
-            'encryption' => env('MAIL_ENCRYPTION', 'TLS'),
-            'username' => 'scans@centralsystems.com.au',
-            'password' => 'bMdMJqAMYDVh9Lmn',
+            'host' => env('MAIL_HOST', 'mail.wedobot.au'),
+            'port' => env('MAIL_PORT', 465),
+            'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+            'username' => 'noreply@wedobot.au',
+            'password' => '_lZCidCJ5NZ[',
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
@@ -111,7 +111,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'scans@centralsystems.com.au'),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@wedobot.au'),
         'name' => env('MAIL_FROM_NAME', 'Batch Certificate Generator'),
     ],
 

@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME','Batch Certificate'),
+    'name' => env('APP_NAME', 'Batch Certificate'),
 
     /*
     |--------------------------------------------------------------------------

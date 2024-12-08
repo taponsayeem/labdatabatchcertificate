@@ -117,7 +117,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'noreply@wedobot.au'),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@australiangarnet.com.au'),
         'name' => env('MAIL_FROM_NAME', 'Batch Certificate'),
     ],
 
